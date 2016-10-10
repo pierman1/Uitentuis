@@ -1,0 +1,46 @@
+$link-transition-time: 200ms;
+$link-transition-ease: $ease-in-out-quad;
+
+a {
+  color: $color-primary;
+  cursor: pointer;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  font-family: $font-stack-secondary;
+  font-weight: 700;
+  transition: color $link-transition-time $link-transition-ease, border $ease-in-sine;
+
+  &:hover,
+  &:focus {
+    color: darken($color-primary, 30%);
+  }
+
+  &:active {
+    color: darken($color-primary, 30%);
+  }
+
+}
+
+.menu-item a {
+    padding-bottom: 2px;
+
+    &:hover,
+    &:focus {
+      border-bottom: 2px solid darken($color-primary, 30%);
+    }
+
+    &:active {
+      border-bottom: 2px solid darken($color-primary, 30%);
+    }
+}
+
+.link-more {
+  text-align: right;
+
+  a {
+    font-size: 2.2rem;
+    text-align: right;
+    line-height: 1.3;
+    text-decoration: underline;
+  }
+}

@@ -1,0 +1,44 @@
+.section-contact {
+    
+    &__content-wrapper {
+        max-width: 540px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    &__title {
+        margin-bottom: 15px;
+    }
+    
+    &__content {
+        p {
+            font-size: $font-size-h3;
+        }
+
+        a {
+            text-decoration: underline;
+        }
+    }
+    
+     &__social-links {
+        
+        margin-top: 25px;
+
+         a {
+            display: block;
+            width: 100%;
+            line-height: 1.3;
+            font-size: $font-size-h3;
+            text-decoration: underline;
+         }
+    }
+
+    &__back-button {
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translate3d(-50%, 0, 0);
+        text-decoration: underline;
+    }
+
+}

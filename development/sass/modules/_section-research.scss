@@ -1,0 +1,54 @@
+.section-research {
+	
+	&__content-wrapper {
+		max-width: 80%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin: 0 auto;
+	}
+
+	&__item {
+	    max-width: 256px;
+	    margin: 10px 3%;
+	}
+
+	&__image-wrapper {
+		position: relative;
+
+		span {
+			padding: 1%;
+			position: absolute;
+			top: 0%;
+			left: 0%;
+			background: $color-primary;
+			color: $color-white;
+			font-size: 12px;
+			font-weight: $font-weight-black ;
+		}
+	}
+
+	&__title {
+		margin: 5px 0;
+	}
+
+	&__text {
+
+		span {
+			font-weight: $font-weight-black ;
+		}
+		
+		font-size: 12px;
+		font-weight: $font-weight-book;
+		line-height: 1.3;
+		display: -webkit-box;
+		font-family: $font-stack-secondary;
+		color: $color-primary;
+	    overflow: hidden;
+	    text-overflow: ellipsis;
+	    -webkit-line-clamp: 3;
+	    -webkit-box-orient: vertical;
+	}
+}
+	

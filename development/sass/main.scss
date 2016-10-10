@@ -1,0 +1,38 @@
+/*
+  Theme Name: Solar MAde
+  Theme URI: http://www.solarmade.nl
+  Author: Tom Snepvangers
+  Author URI: http://www.tomsnepvangers.com
+  Description: Custom theme build for Solar Made
+  Version: 1.0.0:
+  Text Domain: solar made
+*/
+
+
+@charset "UTF-8";
+
+
+@import "utils/colors";
+@import "utils/eases";
+@import "utils/media";
+@import "utils/typography";
+
+@import "layout/font-face";
+@import "layout/normalize";
+@import "layout/html";
+
+@import "elements/button";
+@import "elements/figure";
+@import "elements/heading";
+@import "elements/link";
+@import "elements/paragraph";
+
+@import "modules/footer";
+@import "modules/header";
+@import "modules/section";
+@import "modules/section-showcase";
+@import "modules/section-research";
+@import "modules/section-projects";
+@import "modules/section-about";
+@import "modules/section-contact";
+@import "modules/projects-showcase";
